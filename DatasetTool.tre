@@ -1,0 +1,11 @@
+PAGE
+    Toplevel: DatasetTool
+        TNotebook: TNotebookMenu  
+            Frame: TNotebookMenu_t1  
+                TLabel: TLabelChosenDir  
+                TButton: TButtonChangeDir   command: changedir
+                TButton: TButtonImageCombiner   command: imagecombiner
+            Frame: TNotebookMenu_t2  
+            Frame: TNotebookMenu_t3  
+            Frame: TNotebookMenu_t4  
+
